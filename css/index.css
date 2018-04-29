@@ -1,0 +1,143 @@
+*:not(.ng-hide) {
+	transition: ease-in-out 0.15s;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-color: black;
+	text-align: center;
+	margin: auto;
+	display: table;
+}
+
+h1, h2, h3, h4, h5, h6, span, p {
+	color: white;
+	font-family: Helvetica, Arial, Verdana;
+}
+
+svg.main {
+	height: 600px;
+	width: 600px;
+	margin-top: 20px;
+	border-radius: 20px;
+	background-color: grey;
+}
+
+svg.turn {
+	height: 80px;
+	width: 80px;
+	vertical-align: middle;
+}
+
+svg.x {
+	height: 200px;
+	width: 200px;
+}
+
+line {
+	stroke-linecap: round;
+	stroke-width: 20;
+	stroke: white;
+}
+
+line.lines {
+	stroke-linecap: round;
+	stroke-width: 10;
+	stroke: white;
+}
+
+circle {
+	stroke-width: 20;
+	stroke: white;
+	fill-opacity: 0;
+}
+
+rect {
+	height: 200px;
+	width: 200px;
+}
+
+rect.clickable:hover {
+	fill: #555;
+	cursor: pointer;
+}
+
+rect.clickable:active {
+	fill: #888;
+}
+
+#turn {
+	height: 80px;
+}
+
+#turn-header {
+	display: inline-block;
+	line-height: 42px;
+}
+
+.turn > .x > line {
+	stroke-width: 10;
+}
+
+.turn > circle {
+	stroke-width: 10;
+}
+
+.wrapper {
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.inlinify {
+	display: inline-block;
+}
+
+.verticalify {
+	vertical-align: middle;
+}
+
+.colorize1 {
+	fill: #03A9F4;
+}
+
+.colorize2 {
+	fill: #F44336;
+}
+
+.colorize3 {
+	fill: #64DD17;
+}
+
+.colorize4 {
+	fill: #009688;
+}
+
+.colorize5 {
+	fill: #FF9800;
+}
+
+.colorize6 {
+	fill: #9C27B0;
+}
+
+.colorize7 {
+	fill: #FFEB3B;
+}
+
+.colorize8 {
+	fill: #E91E63;
+}
+
+.colorize9 {
+	fill: #00C853;
+}
+
+.main > .ng-hide {
+  transition: 0.5s linear all;
+  opacity: 0;
+}
